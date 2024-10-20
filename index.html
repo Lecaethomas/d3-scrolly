@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrollytelling Step-by-Step Bar Chart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to styles.css -->
+  </head>
+  <body>
+    <!-- Header content, taking full width -->
+    <div class="header">Hello</div>
+
+    <div class="scrollytelling-container">
+      <!-- Chart container with sticky position -->
+      <section id="chart-container">
+        <div id="chart">
+          <svg></svg>
+        </div>
+      </section>
+
+      <!-- Text container with scrolling sections -->
+      <div class="text-container">
+        <section class="step" data-step="1">
+          <div class="step-content">Here is some explanation for bar 1.</div>
+        </section>
+        <section class="step" data-step="2">
+          <div class="step-content">Here is some explanation for bar 2.</div>
+        </section>
+        <section class="step" data-step="3">
+          <div class="step-content">Here is some explanation for bar 3.</div>
+        </section>
+        <section class="step" data-step="4">
+          <div class="step-content">Here is some explanation for bar 4.</div>
+        </section>
+        <section class="step" data-step="5">
+          <div class="step-content">Here is some explanation for bar 5.</div>
+        </section>
+        <section class="step" data-step="6">
+          <div class="step-content">Here is some explanation for bar 6.</div>
+        </section>
+        <section class="step" data-step="7">
+          <div class="step-content">Here is some explanation for bar 7.</div>
+        </section>
+        <section class="step" data-step="8">
+          <div class="step-content">Here is some explanation for bar 8.</div>
+        </section>
+        <section class="step" data-step="9">
+          <div class="step-content">Here is some explanation for bar 9.</div>
+        </section>
+        <section class="step" data-step="10">
+          <div class="step-content">Here is some explanation for bar 10.</div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Load D3.js and Scrollama.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/2.2.0/scrollama.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
